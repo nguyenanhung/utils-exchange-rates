@@ -1,3 +1,9 @@
+[![Latest Stable Version](https://poser.pugx.org/nguyenanhung/utils-exchange-rates/v/stable)](https://packagist.org/packages/nguyenanhung/utils-exchange-rates)
+[![Total Downloads](https://poser.pugx.org/nguyenanhung/utils-exchange-rates/downloads)](https://packagist.org/packages/nguyenanhung/utils-exchange-rates)
+[![Latest Unstable Version](https://poser.pugx.org/nguyenanhung/utils-exchange-rates/v/unstable)](https://packagist.org/packages/nguyenanhung/utils-exchange-rates)
+[![composer.lock](https://poser.pugx.org/nguyenanhung/utils-exchange-rates/composerlock)](https://packagist.org/packages/nguyenanhung/utils-exchange-rates)
+[![License](https://poser.pugx.org/nguyenanhung/utils-exchange-rates/license)](https://packagist.org/packages/nguyenanhung/utils-exchange-rates)
+
 # Utils: Exchange Rates
 
 Hàm lấy dữ liệu tỷ giá giao dịch từ website 1 số ngân hàng
