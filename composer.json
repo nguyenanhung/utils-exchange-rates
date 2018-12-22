@@ -21,9 +21,6 @@
         "ext-json": "*",
         "ext-xml": "*"
     },
-    "require-dev": {
-        "kint-php/kint": "^3.0"
-    },
     "autoload": {
         "psr-4": {
             "nguyenanhung\\Utils\\ExchangeRates\\": "src/"
