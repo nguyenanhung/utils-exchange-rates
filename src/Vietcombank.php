@@ -20,7 +20,7 @@ class Vietcombank implements VietcombankInterface
 {
     use RequestTrait, ResponseTrait;
     /** @var string Endpoint ExchangeRates */
-    private $endpoint = 'http://www.vietcombank.com.vn/ExchangeRates/ExrateXML.aspx';
+    private $endpoint = 'https://portal.vietcombank.com.vn/Usercontrols/TVPortal.TyGia/pXML.aspx';
     /** @var array|bool Response Data */
     private $response = NULL;
 
