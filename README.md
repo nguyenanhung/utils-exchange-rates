@@ -11,7 +11,7 @@ Hàm lấy dữ liệu tỷ giá giao dịch từ website 1 số ngân hàng
 
 ## Tỷ giá theo báo cáo từ ngân hàng Vietcombank
 
-Hàm bóc tách dữ liệu từ website ngân hàng Vietcombank: http://www.vietcombank.com.vn/ExchangeRates/
+Hàm bóc tách dữ liệu từ website ngân hàng Vietcombank: https://portal.vietcombank.com.vn/Personal/TG/Pages/ty-gia.aspx
 
 ```php
 <?php
