@@ -19,10 +19,12 @@ namespace nguyenanhung\Utils\ExchangeRates;
 class Vietcombank implements VietcombankInterface
 {
     use RequestTrait, ResponseTrait;
+
     /** @var string Endpoint ExchangeRates */
     private $endpoint = 'https://portal.vietcombank.com.vn/Usercontrols/TVPortal.TyGia/pXML.aspx';
+
     /** @var array|bool Response Data */
-    private $response = NULL;
+    private $response = null;
 
     /**
      * Function parseDataExchangeRates
@@ -34,7 +36,7 @@ class Vietcombank implements VietcombankInterface
      */
     public function parseDataExchangeRates()
     {
-        $xmlData = NULL;
+        $xmlData = null;
         $p       = xml_parser_create();
         xml_parse_into_struct($p, $this->sendRequest($this->endpoint), $xmlData);
         xml_parser_free($p);
