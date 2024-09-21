@@ -3,7 +3,6 @@
 [![Latest Unstable Version](https://poser.pugx.org/nguyenanhung/utils-exchange-rates/v/unstable)](https://packagist.org/packages/nguyenanhung/utils-exchange-rates)
 [![composer.lock](https://poser.pugx.org/nguyenanhung/utils-exchange-rates/composerlock)](https://packagist.org/packages/nguyenanhung/utils-exchange-rates)
 [![License](https://poser.pugx.org/nguyenanhung/utils-exchange-rates/license)](https://packagist.org/packages/nguyenanhung/utils-exchange-rates)
-[![PHP Version Require](http://poser.pugx.org/nguyenanhung/utils-exchange-rates/require/php)](https://packagist.org/packages/nguyenanhung/utils-exchange-rates)
 
 # Utils: Exchange Rates
 
