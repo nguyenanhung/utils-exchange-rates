@@ -1,8 +1,8 @@
-[![Latest Stable Version](https://poser.pugx.org/nguyenanhung/utils-exchange-rates/v/stable)](https://packagist.org/packages/nguyenanhung/utils-exchange-rates)
-[![Total Downloads](https://poser.pugx.org/nguyenanhung/utils-exchange-rates/downloads)](https://packagist.org/packages/nguyenanhung/utils-exchange-rates)
-[![Latest Unstable Version](https://poser.pugx.org/nguyenanhung/utils-exchange-rates/v/unstable)](https://packagist.org/packages/nguyenanhung/utils-exchange-rates)
-[![composer.lock](https://poser.pugx.org/nguyenanhung/utils-exchange-rates/composerlock)](https://packagist.org/packages/nguyenanhung/utils-exchange-rates)
-[![License](https://poser.pugx.org/nguyenanhung/utils-exchange-rates/license)](https://packagist.org/packages/nguyenanhung/utils-exchange-rates)
+[![Latest Stable Version](https://poser.pugx.org/nguyenanhung/utils-exchange-rates/v/stable.svg)](https://packagist.org/packages/nguyenanhung/utils-exchange-rates)
+[![Total Downloads](https://poser.pugx.org/nguyenanhung/utils-exchange-rates/downloads.svg)](https://packagist.org/packages/nguyenanhung/utils-exchange-rates)
+[![Latest Unstable Version](https://poser.pugx.org/nguyenanhung/utils-exchange-rates/v/unstable.svg)](https://packagist.org/packages/nguyenanhung/utils-exchange-rates)
+[![composer.lock](https://poser.pugx.org/nguyenanhung/utils-exchange-rates/composerlock.svg)](https://packagist.org/packages/nguyenanhung/utils-exchange-rates)
+[![License](https://poser.pugx.org/nguyenanhung/utils-exchange-rates/license.svg)](https://packagist.org/packages/nguyenanhung/utils-exchange-rates)
 
 # Utils: Exchange Rates
 
