@@ -21,10 +21,10 @@ trait ResponseTrait
     /**
      * Function getResponse
      *
+     * @return mixed
      * @author: 713uk13m <dev@nguyenanhung.com>
      * @time  : 2018-12-23 03:07
      *
-     * @return mixed
      */
     public function getResponse()
     {
@@ -34,10 +34,10 @@ trait ResponseTrait
     /**
      * Function toJson
      *
+     * @return false|string
      * @author: 713uk13m <dev@nguyenanhung.com>
      * @time  : 2018-12-23 03:07
      *
-     * @return false|string
      */
     public function toJson()
     {

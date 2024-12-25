@@ -19,12 +19,22 @@ namespace nguyenanhung\Utils\ExchangeRates;
 interface VietcombankInterface
 {
     /**
+     * Function overrideEndpoint
+     *
+     * @param $endpoint
+     * User: 713uk13m <dev@nguyenanhung.com>
+     * Copyright: 713uk13m <dev@nguyenanhung.com>
+     * @return $this
+     */
+    public function overrideEndpoint($endpoint = "");
+
+    /**
      * Function parseDataExchangeRates
      *
+     * @return $this
      * @author: 713uk13m <dev@nguyenanhung.com>
      * @time  : 2018-12-23 03:06
      *
-     * @return $this
      */
     public function parseDataExchangeRates();
 }

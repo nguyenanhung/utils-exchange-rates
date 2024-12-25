@@ -27,17 +27,34 @@ class Vietcombank implements VietcombankInterface
     private $response = null;
 
     /**
+     * Function overrideEndpoint
+     *
+     * @param $endpoint
+     * User: 713uk13m <dev@nguyenanhung.com>
+     * Copyright: 713uk13m <dev@nguyenanhung.com>
+     * @return $this
+     */
+    public function overrideEndpoint($endpoint = "")
+    {
+        if (empty($endpoint)) {
+            return $this;
+        }
+        $this->endpoint = $endpoint;
+        return $this;
+    }
+
+    /**
      * Function parseDataExchangeRates
      *
+     * @return $this
      * @author: 713uk13m <dev@nguyenanhung.com>
      * @time  : 2018-12-23 03:06
      *
-     * @return $this
      */
     public function parseDataExchangeRates()
     {
         $xmlData = null;
-        $p       = xml_parser_create();
+        $p = xml_parser_create();
         xml_parse_into_struct($p, $this->sendRequest($this->endpoint), $xmlData);
         xml_parser_free($p);
         $data = array();
@@ -49,9 +66,9 @@ class Vietcombank implements VietcombankInterface
                 }
             }
             $this->response = $data;
+            return $this;
         }
         $this->response = $data;
-
         return $this;
     }
 }
